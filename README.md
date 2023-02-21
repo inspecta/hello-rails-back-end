@@ -31,8 +31,10 @@
 
 # 📖 RAILS-REACT <a name="about-project"></a>
 
-This is a simpe RESTFUL API that has an endpoint that fetches a random greeting everytime a user accesses the endpoint.
+This is a simpe RESTFUL API that has an endpoint that fetches a random greeting everytime a user accesses the endpoint (http://localhost/api/v1/messages).
 It is build using Ruby on Rails and PostgreSQL. 
+
+The API is be served in a React Front End Application [link](https://github.com/inspecta/hello-react-front-end)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -48,7 +50,7 @@ It is build using Ruby on Rails and PostgreSQL.
 <details>
   <summary>Front End</summary>
   <ul>
-    <li>None</li>
+    <li><a href="https://github.com/inspecta/hello-react-front-end">React App</a></li>
   </ul>
 </details>
 
@@ -65,6 +67,7 @@ It is build using Ruby on Rails and PostgreSQL.
 
 - Fetch a random greeting everytime through an endpoint
 - Provide access to this endpoint
+- The API is served with a React front end application
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
